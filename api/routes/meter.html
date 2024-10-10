@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Munipal</title>
+</head>
+
+<body>
+    <div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: white;">
+        <h1>Good Day</h1>
+        <h1>Please find the meter reading scanned from Munipal</h1>
+
+        <div style="display: flex; flex-direction: row;">
+            <p style="display: flex; flex-direction: column; flex: 1; font-weight: bold; border: 1px solid #ccc; padding: 15px;">ERF Stand no.</p>
+            <p style="display: flex; flex-direction: column; flex: 1; border: 1px solid #ccc; border-left: none; align-self: center; padding: 15px;">{{ERF}}</p>
+        </div>
+        <div style="display: flex; flex-direction: row;">
+            <p style="display: flex; flex-direction: column; flex: 1; font-weight: bold; border: 1px solid #ccc; padding: 15px;">Account Number</p>
+            <p style="display: flex; flex-direction: column; flex: 1; border: 1px solid #ccc; border-left: none; align-self: center; padding: 15px;">{{AccNo}}</p>
+        </div>
+        <div style="display: flex; flex-direction: row;">
+            <p style="display: flex; flex-direction: column; flex: 1; font-weight: bold; border: 1px solid #ccc; padding: 15px;">initials & Surname</p>
+            <p style="display: flex; flex-direction: column; flex: 1; border: 1px solid #ccc; border-left: none; align-self: center; padding: 15px;">{{Ini}}</p>
+        </div>
+        <div style="display: flex; flex-direction: row;">
+            <p style="display: flex; flex-direction: column; flex: 1; font-weight: bold; border: 1px solid #ccc; padding: 15px;">E-mail Address</p>
+            <p style="display: flex; flex-direction: column; flex: 1; border: 1px solid #ccc; border-left: none; align-self: center; padding: 15px;">{{email}}</p>
+        </div>
+        <div style="display: flex; flex-direction: row;">
+            <p style="display: flex; flex-direction: column; flex: 1; font-weight: bold; border: 1px solid #ccc; padding: 15px;">Physical Address</p>
+            <p style="display: flex; flex-direction: column; flex: 1; border: 1px solid #ccc; border-left: none; align-self: center; padding: 15px;">{{add}}</p>
+        </div>
+
+        <h1>Reading Details</h1>
+
+        <div style="display: flex; flex-direction: row;">
+            <p style="display: flex; flex-direction: column; flex: 1; font-weight: bold; border: 1px solid #ccc; padding: 15px;">Reading Date</p>
+            <p style="display: flex; flex-direction: column; flex: 1; border: 1px solid #ccc; border-left: none; align-self: center; padding: 15px;">{{date}}</p>
+        </div>
+
+        <h3>{{readingType}}</h3>
+
+        <div style="display: flex; flex-direction: row;">
+            <p style="display: flex; flex-direction: column; flex: 1; font-weight: bold; border: 1px solid #ccc; padding: 15px;">Previous Reading</p>
+            <p style="display: flex; flex-direction: column; flex: 1; border: 1px solid #ccc; border-left: none; align-self: center; padding: 15px;">{{wPrev}}</p>
+        </div>
+
+        <div style="display: flex; flex-direction: row;">
+            <p style="display: flex; flex-direction: column; flex: 1; font-weight: bold; border: 1px solid #ccc; padding: 15px;">Current Reading</p>
+            <p style="display: flex; flex-direction: column; flex: 1; border: 1px solid #ccc; border-left: none; align-self: center; padding: 15px;">{{wCurr}}</p>
+        </div>
+
+        <div style="display: flex; flex-direction: row;">
+            <p style="display: flex; flex-direction: column; flex: 1; font-weight: bold; border: 1px solid #ccc; padding: 15px;">Consumption</p>
+            <p style="display: flex; flex-direction: column; flex: 1; border: 1px solid #ccc; border-left: none; align-self: center; padding: 15px;">{{wCon}}</p>
+        </div>
+
+        <div style="display: flex; flex-direction: row; margin: 25px;">
+            <img style="display: flex; flex-direction: column; flex: 1" src="cid:wImage">
+        </div>
+
+        <img style="height: 50px; width: 50px; margin: 15px;" src="cid:logo">
+
+    </div>
+</body>
+
+</html>
